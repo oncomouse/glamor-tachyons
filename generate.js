@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 const postcss = require('postcss')
 const { camelCase, forEach, isEqual, map } = require('lodash')
-const helpers = require('./lib/helpers')
+const helpers = require('./generate/helpers')
 
 const parseCSS = function (contents) {
   const root = postcss.parse(contents)

@@ -1,5 +1,5 @@
 {
-  "name": "glamor-tachyons",
+  "name": "@oncomouse/glamor-tachyons",
   "version": "1.0.0-alpha.1",
   "description": "A tool for using Tacyhons with glamor or other css-in-js libraries",
   "main": "index.js",
@@ -19,9 +19,6 @@
   ],
   "author": "Sam Breed (@wookiehangover)",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.4"
-  },
   "devDependencies": {
     "code": "^4.1.0",
     "lab": "^14.2.1",
